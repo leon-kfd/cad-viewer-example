@@ -1,7 +1,6 @@
 <template>
   <MlCadViewer
     locale="en"
-    url="https://mlightcad.gitlab.io/cad-data/data/anteen.dwg"
     base-url="https://cdn.jsdelivr.net/gh/mlightcad/cad-data@main/"
   />
 </template>
@@ -17,3 +16,8 @@ AcApSettingManager.instance.isShowCommandLine = false
 // AcApSettingManager.instance.isShowCoordinate = false
 </script>
 
+<style>
+  .ml-cad-canvas {
+    background: #000;
+  }
+</style>
